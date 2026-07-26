@@ -1,0 +1,14 @@
+{
+  "title": "Where Is the Filter? — analysis code (v2)",
+  "description": "Code reproducing every table, figure and numerical claim in 'Where Is the Filter? Joint Observational Underdetermination from the Fermi Silence, the Doomsday Tail, and the Anthropic Shadow' (v2). A single driver runs a 7-item verification suite and then writes all results to results.txt / results.json.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {"name": "Kılınç, Yavuz Selim", "affiliation": "Independent Researcher, Manisa, Türkiye"}
+  ],
+  "keywords": ["Great Filter", "Fermi paradox", "Doomsday Argument", "anthropic shadow", "partial identification", "existential risk"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.21539849", "relation": "cites", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.21597368", "relation": "cites", "scheme": "doi"}
+  ]
+}

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Where Is the Filter? — analysis code"
+version: 2.0.0
+date-released: "2026-07-27"
+license: MIT
+authors:
+  - family-names: Kılınç
+    given-names: Yavuz Selim
+identifiers:
+  - description: "Zenodo archive for this release"
+    type: doi
+    value: "10.5281/zenodo.XXXXXXX"                  # release sonrası mint edilecek
+repository-code: "https://github.com/YSKpython/great-filter"
+keywords:
+  - Great Filter
+  - Fermi paradox
+  - Doomsday Argument
+  - anthropic shadow
+  - partial identification

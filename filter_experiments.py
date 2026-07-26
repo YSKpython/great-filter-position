@@ -322,8 +322,9 @@ def table_4(n=20000):
 
     fig, axes = plt.subplots(1, 2, figsize=(11, 4))
     axes[0].hist(env["bits"], bins=60, color="steelblue")
-    axes[0].axvline(1.0, color="crimson", ls="--", lw=1.6,
-                    label="1 bit = decides behind vs ahead")
+    axes[0].axvline(0.71, color="crimson", ls="--", lw=1.6,
+                    label="0.71 bits = 95% one-sided")
+    axes[0].set_xlim(0, 0.9)
     axes[0].set_xlabel("information gain about $\\phi$ (bits)")
     axes[0].set_ylabel("couplings in $\\mathcal{C}$")
     axes[0].set_title(f"(a) median {env['bits_median']:.3f}, "

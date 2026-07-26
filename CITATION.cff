@@ -10,8 +10,8 @@ authors:
 identifiers:
   - description: "Zenodo archive for this release"
     type: doi
-    value: "10.5281/zenodo.XXXXXXX"                  # release sonrası mint edilecek
-repository-code: "https://github.com/YSKpython/great-filter"
+    value: "10.5281/zenodo.21609810"
+repository-code: "https://github.com/YSKpython/great-filter-position"
 keywords:
   - Great Filter
   - Fermi paradox

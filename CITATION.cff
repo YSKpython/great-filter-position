@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Where Is the Filter? — analysis code"
-version: 2.1.0
+version: 2.2.0
 date-released: "2026-07-27"
 license: MIT
 authors:
@@ -10,7 +10,7 @@ authors:
 identifiers:
   - description: "Zenodo archive for this release"
     type: doi
-    value: "10.5281/zenodo.21609810"
+    value: "10.5281/zenodo.21610745"
 repository-code: "https://github.com/YSKpython/great-filter-position"
 keywords:
   - Great Filter

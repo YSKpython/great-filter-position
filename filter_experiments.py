@@ -192,8 +192,8 @@ def figure_2():
                       rf"{np.log2(np.exp(pref)):.3f} bits")
     axes[1].legend(fontsize=8, loc="lower right")
 
-    fig.suptitle(r"Figure 2 - Proposition 4$'$ and the SOM information "
-                 "ceiling", fontweight="bold", y=1.04)
+    fig.suptitle(r"Figure 2 - budget symmetry (Proposition 4) and the SOM "
+                 r"information ceiling", fontweight="bold", y=1.04)
     fig.tight_layout()
     fig.savefig(f"{OUT_FIG}/fig2_lambda.png")
     plt.close(fig)
@@ -242,7 +242,7 @@ def figure_4(n=61):
                       "\nunidentified couplings, not by the data")
 
     fig.suptitle("Figure 4 - negligible information across coupling "
-                 "space, but a sign that still flips",
+                 "space; the residual tilt is set by the couplings",
                  fontweight="bold", y=1.05)
     fig.tight_layout()
     fig.savefig(f"{OUT_FIG}/fig4_flat_locus.png")
